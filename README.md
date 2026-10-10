@@ -1,55 +1,60 @@
 # JoeyD · TengJoe
 
-改进项目、参考 Fork，以及按用途整理的开源工具。  
-Adapted projects, reference forks, and open-source tools grouped by purpose.
+**AI tooling · Local-first software · Linux desktop**
 
-## 项目入口 · Projects
+我喜欢把现有工具变得更安全、更顺手、更适合真实环境使用，也会做一些解决自己实际需求的小工具。  
+I work on practical improvements to AI tooling, local-first software, and Linux desktop workflows.
 
-| 项目 / Project | 用途 / Purpose | 来源 / Origin |
+## Currently focused on
+
+- **AI Agent / OpenClaw tooling** — 控制中心、运行状态、用量、自动化与本地安全边界
+- **Linux desktop** — GNOME 桌面体验、图标与日常工作流
+- **Local-first engineering** — 尽量让数据、配置和运行状态留在本机，并保持默认行为可解释、可恢复
+- **Automation & CLI** — 用 Python、TypeScript 和 Shell 把重复操作变成可靠工具
+
+## Featured work
+
+| Project | What it is | My focus |
 | --- | --- | --- |
-| [OpenClaw Control Center Enhanced](https://github.com/TengJoe/openclaw-control-center-enhanced) | 控制中心的安全、体验与性能改进 / Security, UX and performance improvements | Derived from [TianyiDataScience/openclaw-control-center](https://github.com/TianyiDataScience/openclaw-control-center) |
-| [Mos-fix](https://github.com/TengJoe/Mos-fix) | macOS 鼠标滚动工具的修改版 / Modified macOS mouse scrolling utility | Fork of [Caldis/Mos](https://github.com/Caldis/Mos) |
-| [Amlogic OpenWrt](https://github.com/TengJoe/amlogic-s9xxx-openwrt) | 嵌入式设备 OpenWrt 固件 Fork / OpenWrt firmware fork for embedded devices | Fork of [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt) |
+| **[Icon Normalizer](https://github.com/TengJoe/icon-normalizer-plugin)** | GNOME 应用图标视觉归一化工具，由 Shell 扩展和 Python 后台组成 | 原创项目；图标归一化、主题跟随、恢复机制与中英文 UI |
+| **[OpenClaw Control Center Enhanced](https://github.com/TengJoe/openclaw-control-center-enhanced)** | OpenClaw 的本地优先控制中心 | 在上游基础上强化 localhost 鉴权、只读边界、UI、性能与工程结构 |
+| **[Mos-fix](https://github.com/TengJoe/Mos-fix)** | Mos 鼠标滚动工具的修改版 | 针对实际使用体验做维护与适配 |
 
-相关 Fork：[openclaw-control-center](https://github.com/TengJoe/openclaw-control-center)。改进版入口见上表。  
-Related fork: [openclaw-control-center](https://github.com/TengJoe/openclaw-control-center); see the enhanced edition above.
+> `openclaw-control-center-enhanced` 基于 [TianyiDataScience/openclaw-control-center](https://github.com/TianyiDataScience/openclaw-control-center) 演进；`Mos-fix` 来源于 [Caldis/Mos](https://github.com/Caldis/Mos)。完整来源与许可证以各仓库说明为准。
 
-## 仓库导航 · Repository navigation
+## What I care about
 
-按用途筛选公开仓库；每个 Fork 的上游与类型见 [仓库索引](docs/REPOSITORIES.md)。  
-Browse public repositories by purpose. The [repository index](docs/REPOSITORIES.md) records each fork's upstream and type.
+```text
+Useful > flashy
+Safe defaults > hidden surprises
+Local-first > unnecessary cloud dependency
+Small, maintainable improvements > rewrites for their own sake
+```
 
-- [AI Agent 与技能 / Agents](https://github.com/search?q=user%3ATengJoe%20topic%3Aai-agents%20fork%3Atrue&type=repositories)
-- [模型与 API / Models](https://github.com/search?q=user%3ATengJoe%20topic%3Aai-models%20fork%3Atrue&type=repositories)
-- [自动化与 CLI / Automation](https://github.com/search?q=user%3ATengJoe%20topic%3Aautomation-tools%20fork%3Atrue&type=repositories)
-- [桌面与应用 / Apps](https://github.com/search?q=user%3ATengJoe%20topic%3Adesktop-tools%20fork%3Atrue&type=repositories)
-- [网络与规则 / Network](https://github.com/search?q=user%3ATengJoe%20topic%3Anetwork-tools%20fork%3Atrue&type=repositories)
-- [自托管与固件 / Homelab](https://github.com/search?q=user%3ATengJoe%20topic%3Ahomelab%20fork%3Atrue&type=repositories)
-- [编程学习 / Learning](https://github.com/search?q=user%3ATengJoe%20topic%3Alearning-resources%20fork%3Atrue&type=repositories)
+我更关注软件是否真的好用：默认配置是否安全、状态是否看得懂、失败后能不能恢复、长期维护成本是否合理。
 
-## 开源收藏 · Star collections
+## Tech & environment
 
-收藏按 8 个主题整理。原有「🚀 My stack」清单保留。  
-Stars are organized into eight collections. The existing “🚀 My stack” list is preserved.
+`Python` · `TypeScript` · `Shell` · `Linux` · `GNOME` · `OpenClaw` · `GitHub Actions`
 
-| 清单 / Collection | 内容 / Scope |
-| --- | --- |
-| [AI Agent 与技能 · Agents](https://github.com/stars/TengJoe/lists/ai-agent-%E4%B8%8E%E6%8A%80%E8%83%BD-agents) | AI assistants, agent memory, skills and OpenClaw tooling. / 智能助手、记忆、技能与 OpenClaw 工具。 |
-| [模型与 API · Models](https://github.com/stars/TengJoe/lists/%E6%A8%A1%E5%9E%8B%E4%B8%8E-api-models) | Local inference, model research, API gateways and AI client tooling. / 本地推理、模型研究、API 网关与 AI 客户端工具。 |
-| [自动化与 CLI · Automation](https://github.com/stars/TengJoe/lists/%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B8%8E-cli-automation) | Browser automation, command-line interfaces and workflow tools. / 浏览器自动化、命令行接口与工作流工具。 |
-| [桌面与应用 · Apps](https://github.com/stars/TengJoe/lists/%E6%A1%8C%E9%9D%A2%E4%B8%8E%E5%BA%94%E7%94%A8-apps) | Desktop systems, mobile clients and everyday applications. / 桌面系统、移动客户端与日常应用。 |
-| [网络与规则 · Network](https://github.com/stars/TengJoe/lists/%E7%BD%91%E7%BB%9C%E4%B8%8E%E8%A7%84%E5%88%99-network) | Proxy clients, routing rules, network utilities and ad filtering. / 网络客户端、分流规则、网络工具与广告过滤。 |
-| [自托管与固件 · Homelab](https://github.com/stars/TengJoe/lists/%E8%87%AA%E6%89%98%E7%AE%A1%E4%B8%8E%E5%9B%BA%E4%BB%B6-homelab) | Home servers, Linux, containers, embedded hardware and firmware. / 家庭服务器、Linux、容器、嵌入式硬件与固件。 |
-| [编程与计算机基础 · Learning](https://github.com/stars/TengJoe/lists/%E7%BC%96%E7%A8%8B%E4%B8%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80-learning) | Languages, algorithms, systems, design patterns and interview notes. / 语言、算法、系统、设计模式与技术笔记。 |
-| [阅读与 RSS · Reading](https://github.com/stars/TengJoe/lists/%E9%98%85%E8%AF%BB%E4%B8%8E-rss-reading) | RSS, books, knowledge libraries and learning resources. / RSS、书籍、知识库与学习资料。 |
+也持续关注 AI agents、本地模型与推理工具、API / CLI 工作流、Linux 桌面和自托管环境。
 
-[完整收藏索引 / Full Star index](docs/STARS.md) · [所有公开仓库 / Public repositories](https://github.com/TengJoe?tab=repositories)
+## Explore
 
-## 查找约定 · Finding things
+- **[Repository index](docs/REPOSITORIES.md)** — 按用途整理公开仓库，并记录 Fork / derived project 的来源
+- **[Star collections](docs/STARS.md)** — AI Agents、Models、Automation、Apps、Network、Homelab、Learning、Reading
+- **[All public repositories](https://github.com/TengJoe?tab=repositories)** — 查看全部公开项目与 Fork
+- **[My GitHub Stars](https://github.com/TengJoe?tab=stars)** — 查看收藏
 
-- `fork-project`：来自上游的 Fork / Forks of upstream projects.
-- `modified-fork`：整理时默认分支相对上游存在额外提交 / Forks whose default branch had additional commits when indexed.
-- `derived-project`：从上游衍生的独立仓库 / Independently hosted projects derived from upstream work.
+### Repository topics
 
-Fork 与衍生项目的原作者、许可证和项目说明以各仓库为准。  
-Original authorship, licensing and project details remain documented in each repository.
+[AI Agents](https://github.com/search?q=user%3ATengJoe%20topic%3Aai-agents%20fork%3Atrue&type=repositories) ·
+[Models & APIs](https://github.com/search?q=user%3ATengJoe%20topic%3Aai-models%20fork%3Atrue&type=repositories) ·
+[Automation](https://github.com/search?q=user%3ATengJoe%20topic%3Aautomation-tools%20fork%3Atrue&type=repositories) ·
+[Desktop](https://github.com/search?q=user%3ATengJoe%20topic%3Adesktop-tools%20fork%3Atrue&type=repositories) ·
+[Network](https://github.com/search?q=user%3ATengJoe%20topic%3Anetwork-tools%20fork%3Atrue&type=repositories) ·
+[Homelab](https://github.com/search?q=user%3ATengJoe%20topic%3Ahomelab%20fork%3Atrue&type=repositories)
+
+---
+
+<sub>Forks and derived projects keep their original authorship and licensing. Project-specific attribution is documented in each repository.</sub>
