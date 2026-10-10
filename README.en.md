@@ -20,9 +20,8 @@ I enjoy making existing software safer, more practical, and easier to use in rea
 | --- | --- | --- |
 | **[Icon Normalizer](https://github.com/TengJoe/icon-normalizer-plugin)** | A GNOME visual icon normalization tool built with a Shell extension and Python backend | Original project; icon normalization, theme following, recovery, and bilingual UI |
 | **[OpenClaw Control Center Enhanced](https://github.com/TengJoe/openclaw-control-center-enhanced)** | A local-first control center for OpenClaw | Stronger localhost authentication, read-only boundaries, UI, performance, and project structure on top of upstream |
-| **[Mos-fix](https://github.com/TengJoe/Mos-fix)** | A modified version of the Mos mouse scrolling utility | Practical maintenance and adaptation for everyday use |
 
-> `openclaw-control-center-enhanced` is based on [TianyiDataScience/openclaw-control-center](https://github.com/TianyiDataScience/openclaw-control-center); `Mos-fix` is based on [Caldis/Mos](https://github.com/Caldis/Mos). See each repository for detailed attribution and licensing.
+> `openclaw-control-center-enhanced` is based on [TianyiDataScience/openclaw-control-center](https://github.com/TianyiDataScience/openclaw-control-center). See each repository for detailed attribution and licensing.
 
 ## What I care about
 

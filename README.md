@@ -20,9 +20,8 @@
 | --- | --- | --- |
 | **[Icon Normalizer](https://github.com/TengJoe/icon-normalizer-plugin)** | GNOME 应用图标视觉归一化工具，由 Shell 扩展和 Python 后台组成 | 原创项目；图标归一化、主题跟随、恢复机制与中英文 UI |
 | **[OpenClaw Control Center Enhanced](https://github.com/TengJoe/openclaw-control-center-enhanced)** | OpenClaw 的本地优先控制中心 | 在上游基础上强化 localhost 鉴权、只读边界、UI、性能与工程结构 |
-| **[Mos-fix](https://github.com/TengJoe/Mos-fix)** | Mos 鼠标滚动工具的修改版 | 针对实际使用体验做维护与适配 |
 
-> `openclaw-control-center-enhanced` 基于 [TianyiDataScience/openclaw-control-center](https://github.com/TianyiDataScience/openclaw-control-center) 演进；`Mos-fix` 来源于 [Caldis/Mos](https://github.com/Caldis/Mos)。完整来源与许可证以各仓库说明为准。
+> `openclaw-control-center-enhanced` 基于 [TianyiDataScience/openclaw-control-center](https://github.com/TianyiDataScience/openclaw-control-center) 演进。完整来源与许可证以各仓库说明为准。
 
 ## 我的工程偏好
 
