@@ -50,6 +50,8 @@ Purpose tags support navigation. Fork classifications reflect default-branch com
 
 | 仓库 / Repository | 类型 / Type | 上游 / Upstream |
 | --- | --- | --- |
+| [debloom](https://github.com/TengJoe/debloom) | 原创项目 / Original project | — |
+| [icon-normalizer-plugin](https://github.com/TengJoe/icon-normalizer-plugin) | 原创项目 / Original project | — |
 | [JKVideo](https://github.com/TengJoe/JKVideo) | 参考 Fork / Reference fork | [tiajinsha/JKVideo](https://github.com/tiajinsha/JKVideo) |
 | [Mos-fix](https://github.com/TengJoe/Mos-fix) | 修改 Fork / Modified fork | [Caldis/Mos](https://github.com/Caldis/Mos) |
 

@@ -18,6 +18,7 @@
 
 | 项目 | 简介 | 我的重点 |
 | --- | --- | --- |
+| **[Debloom](https://github.com/TengJoe/debloom)** | 面向 Ubuntu / Debian 的原生本地 DEB 安装器，HTML/CSS/JS 前端 + WebKitGTK + Python 后端 | 原创项目；APT 预检与授权后复查、dpkg 前事务核对、中英文 UI、内置设置与更新检查、带哈希保护的回退 |
 | **[Icon Normalizer](https://github.com/TengJoe/icon-normalizer-plugin)** | GNOME 应用图标视觉归一化工具，由 Shell 扩展和 Python 后台组成 | 原创项目；图标归一化、主题跟随、恢复机制与中英文 UI |
 | **[OpenClaw Control Center Enhanced](https://github.com/TengJoe/openclaw-control-center-enhanced)** | OpenClaw 的本地优先控制中心 | 在上游基础上强化 localhost 鉴权、只读边界、UI、性能与工程结构 |
 

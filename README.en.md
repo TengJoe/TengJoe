@@ -18,6 +18,7 @@ I enjoy making existing software safer, more practical, and easier to use in rea
 
 | Project | What it is | My focus |
 | --- | --- | --- |
+| **[Debloom](https://github.com/TengJoe/debloom)** | A native local DEB installer for Ubuntu and Debian: HTML/CSS/JS frontend, WebKitGTK window, Python backend | Original project; APT preflight and post-authorization recheck, pre-dpkg transaction validation, bilingual UI, built-in settings and update check, hash-guarded rollback |
 | **[Icon Normalizer](https://github.com/TengJoe/icon-normalizer-plugin)** | A GNOME visual icon normalization tool built with a Shell extension and Python backend | Original project; icon normalization, theme following, recovery, and bilingual UI |
 | **[OpenClaw Control Center Enhanced](https://github.com/TengJoe/openclaw-control-center-enhanced)** | A local-first control center for OpenClaw | Stronger localhost authentication, read-only boundaries, UI, performance, and project structure on top of upstream |
 
